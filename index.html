@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert Einstein | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation with Hamburger Menu -->
+    <nav class="navbar">
+        <div class="logo">A. Einstein</div>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#papers">Papers</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <img src="images/einstein.jpg" alt="Albert Einstein" class="profile-img">
+            <div class="hero-text">
+                <h1>Albert Einstein</h1>
+                <p><h3><i>Theoretical Physicist & Lifelong Learner</i></h3></p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <p>Hello! I am Albert. Most people know me from my work in physics, but I am also a passionate violinist and sailor. I believe that imagination is more important than knowledge. Welcome to my little space on the world wide web, where I share my thoughts, hobbies, and scientific publications.</p>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="papers" class="publications-section">
+            <h2>My Published Papers</h2>
+            <div class="papers-grid">
+                
+                <div class="paper-card">
+                    <img src="images/paper-icon.png" alt="Paper Icon" class="paper-icon">
+                    <!-- Replaced # with actual Wikipedia link and added target="_blank" -->
+                    <h3><a href="https://en.wikipedia.org/wiki/Annus_Mirabilis_papers#Special_relativity" target="_blank" class="paper-link">Special Relativity</a></h3>
+                    <p>On the Electrodynamics of Moving Bodies (1905).</p>
+                </div>
+            
+                <div class="paper-card">
+                    <img src="images/paper-icon.png" alt="Paper Icon" class="paper-icon">
+                    <h3><a href="https://en.wikipedia.org/wiki/General_relativity" target="_blank" class="paper-link">General Relativity</a></h3>
+                    <p>The Field Equations of Gravitation (1915).</p>
+                </div>
+            
+                <div class="paper-card">
+                    <img src="images/paper-icon.png" alt="Paper Icon" class="paper-icon">
+                    <h3><a href="https://en.wikipedia.org/wiki/Annus_Mirabilis_papers#Photoelectric_effect" target="_blank" class="paper-link">Photoelectric Effect</a></h3>
+                    <p>On a Heuristic Viewpoint Concerning the Production and Transformation of Light (1905).</p>
+                </div>
+            
+                <div class="paper-card">
+                    <img src="images/paper-icon.png" alt="Paper Icon" class="paper-icon">
+                    <h3><a href="https://en.wikipedia.org/wiki/Annus_Mirabilis_papers#Mass%E2%80%93energy_equivalence" target="_blank" class="paper-link">Mass-Energy Equivalence</a></h3>
+                    <p>Does the Inertia of a Body Depend Upon Its Energy Content? (1905).</p>
+                </div>
+            
+            </div>
+        </section>
+
+        <!-- Image Collection Section (Requested by client) -->
+        <section id="gallery" class="gallery-section">
+            <h2>My Image Collection</h2>
+            <div class="gallery-grid">
+                <img src="images/einstein 1.jpg" alt="Einstein 1" class="gallery-img">
+                <img src="images/einstein 2.jpg" alt="Einstein 2" class="gallery-img">
+                <img src="images/einstein 3.jpg" alt="Einstein 3" class="gallery-img">
+            </div>
+        </section>
+
+        <!-- Blog Section (Requested by client & grading feedback) -->
+        <section id="blog" class="blog-section">
+            <h2>My Journal (Blog)</h2>
+            
+            <!-- Functional Blog Form -->
+            <div class="blog-form-container">
+                <h3>Write a new article</h3>
+                <form id="blog-form">
+                    <input type="text" id="blog-title" placeholder="Article Title" required>
+                    <textarea id="blog-content" rows="4" placeholder="Write your thoughts here..." required></textarea>
+                    <button type="submit">Publish Post</button>
+                </form>
+            </div>
+
+            <!-- Where new blogs will appear -->
+            <div id="blog-posts">
+                <div class="post">
+                    <h4>The Joy of Sailing</h4>
+                    <p>There is nothing quite like the open water to clear the mind and make room for new theories.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Extra Section (To fulfill the "additional sections" requirement) -->
+        <section id="contact" class="contact-section">
+            <h2>Contact My Office</h2>
+            <p>For academic inquiries or speaking engagements, please send correspondence to Princeton University.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Albert Einstein. Designed with CSS Grid.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
